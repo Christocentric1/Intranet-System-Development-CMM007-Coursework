@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        main {
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+
+            background-color: DodgerBlue;
+        }
+
+        .flex-container > div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            flex-grow:1;
+        }
+
+        #con1{
+            background-color: gold;
+            order:3;
+            flex-grow:1;
+        }
+        #con2{
+            background-color: silver;
+            order:1;
+            flex-grow:4;
+        }
+        #con3{
+            background-color: saddlebrown;
+            order:2;
+            flex-grow:1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<main class="flex-container">
+    <div id="con1">1</div>
+    <div id="con2">2</div>
+    <div id="con3">3</div>
+
+</main>
+
+
+</body>
+</html>

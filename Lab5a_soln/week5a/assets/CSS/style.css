@@ -1,0 +1,48 @@
+/*@import "templatecolours.css";*/
+@import "fonts.css";
+
+
+main article img{width:100%;}
+
+/*Header Information */
+header{background-color:#00b6a8;}
+
+header h1{
+    font-weight: 700;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 0;
+}
+  header h2{
+    margin-top: 0;
+}
+
+/*End of Header*/
+.experimentImage{
+    margin:6px 0 3px 0;
+    width: 100%;
+    border: 15px solid #00b6a8;
+}
+
+.panel-heading{background-color:#00b6a8;}
+
+footer{background-color:#00b6a8;}
+footer section h3 {margin-top: 10px;}
+.footerDiv{height:15px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
