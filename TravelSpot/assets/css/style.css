@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bg-img{
+    
+    background: url(/image/travel.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-text {
+    
+    display: inline-block;
+    font-family: satisfy, Segoe UI;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 40%;
+    left: 10%;
+    padding: 10px;
+}
